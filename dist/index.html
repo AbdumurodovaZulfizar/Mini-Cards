@@ -11,22 +11,179 @@
 </head>
 <body>
   <div class="container">
-    <div class="p-16 w-screen">
-      <div class="flex justify-between">
+    <div class="w-screen">
+      <div class="p-16 flex justify-between">
         <h1 class="text-3xl font-sans font-bold text-gray-800">Projects based on your profile</h1>
         <a href="#" class="text-2xl font-sans font-bold text-gray-800 underline">View all projects</a>
       </div>
-      <div class="py-14">
-        <div class="shadow-md bg-red-100 rounded-md w-1/4">
-          <div class="flex justify-between">
-            <div>
-              <img src="./cover.jpg" alt="rasm" class="w-24 p-3">
-            </div>
-            <div>
+      <div class="flex">
+        <div class="self-center text-5xl px-3" id="prev">
+          <i class="fas fa-chevron-left"></i>
+        </div>
 
+        <div class="overflow-x-hidden slide_wrapper">
+          <div class="flex wrapper">
+            <div class="shadow-md rounded-md mx-3 my-2 my_card transition ease-out duration-700 transform hover:scale-105">
+              <div class="flex justify-between bg-gray-100 rounded-t-md">
+                <div class="flex">
+                  <img src="./cover.png" alt="image" class="w-24 p-3">
+                  <div class="py-3 flex flex-col justify-between">
+                    <p class="text-xl text-gray-800 font-semibold">Project name</p>
+                    <p class="text-base text-gray-600 font-semibold"><i class="fas fa-check-square text-black"></i><span class="px-3">Company name</span></p>
+                  </div>
+                </div>
+                <div class="flex flex-col justify-between p-3 place-items-end">
+                  <i class="far fa-bookmark"></i>
+                  <p>5 hours ago</p>
+                </div>
+              </div>
+              <div>
+                <div class="p-3">
+                  <p class="leading-8"><i class="fas fa-clock"></i><span class="px-2 text-gray-600">10hr/per week</span></p>
+                  <p class="leading-8"><i class="fas fa-medal"></i><span class="px-2 text-gray-600">Certificate/Recommendation Letter</span></p>
+                  <p class="leading-8"><i class="fas fa-map-marker-alt"></i><span class="px-2 text-gray-600">Remote</span></p>
+                  <div class="flex flex-wrap pt-3">
+                    <div class="px-2 bg-gray-200 mr-3 my-1 rounded-md">Front-end Engineer</div>
+                    <div class="px-2 bg-gray-200 mr-3 my-1 rounded-md">Backend Engineer</div>
+                    <div class="px-2 bg-gray-200 mr-3 my-1 rounded-md">UX/UI Designer</div>
+                    <div class="px-2 bg-gray-200 my-1 rounded-md">QA Tester</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+  
+            <div class="shadow-md rounded-md mx-3 my-2 my_card transition ease-out duration-700 transform hover:scale-105">
+              <div class="flex justify-between bg-gray-100 rounded-t-md">
+                <div class="flex">
+                  <img src="./cover.png" alt="image" class="w-24 p-3">
+                  <div class="py-3 flex flex-col justify-between">
+                    <p class="text-xl text-gray-800 font-semibold">Project name</p>
+                    <p class="text-base text-gray-600 font-semibold"><i class="fas fa-check-square text-black"></i><span class="px-3">Company name</span></p>
+                  </div>
+                </div>
+                <div class="flex flex-col justify-between p-3 place-items-end">
+                  <i class="far fa-bookmark"></i>
+                  <p>5 hours ago</p>
+                </div>
+              </div>
+              <div>
+                <div class="p-3">
+                  <p class="leading-8"><i class="fas fa-clock"></i><span class="px-2 text-gray-600">10hr/per week</span></p>
+                  <p class="leading-8"><i class="fas fa-medal"></i><span class="px-2 text-gray-600">Certificate/Recommendation Letter</span></p>
+                  <p class="leading-8"><i class="fas fa-map-marker-alt"></i><span class="px-2 text-gray-600">Remote</span></p>
+                  <div class="flex flex-wrap pt-3">
+                    <div class="px-2 bg-gray-200 mr-3 my-1 rounded-md">Front-end Engineer</div>
+                    <div class="px-2 bg-gray-200 mr-3 my-1 rounded-md">Backend Engineer</div>
+                    <div class="px-2 bg-gray-200 mr-3 my-1 rounded-md">UX/UI Designer</div>
+                    <div class="px-2 bg-gray-200 my-1 rounded-md">QA Tester</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+  
+            <div class="shadow-md rounded-md mx-3 my-2 my_card transition ease-out duration-700 transform hover:scale-105">
+              <div class="flex justify-between bg-gray-100 rounded-t-md">
+                <div class="flex">
+                  <img src="./cover.png" alt="image" class="w-24 p-3">
+                  <div class="py-3 flex flex-col justify-between">
+                    <p class="text-xl text-gray-800 font-semibold">Project name</p>
+                    <p class="text-base text-gray-600 font-semibold"><i class="fas fa-check-square text-black"></i><span class="px-3">Company name</span></p>
+                  </div>
+                </div>
+                <div class="flex flex-col justify-between p-3 place-items-end">
+                  <i class="far fa-bookmark"></i>
+                  <p>5 hours ago</p>
+                </div>
+              </div>
+              <div>
+                <div class="p-3">
+                  <p class="leading-8"><i class="fas fa-clock"></i><span class="px-2 text-gray-600">10hr/per week</span></p>
+                  <p class="leading-8"><i class="fas fa-medal"></i><span class="px-2 text-gray-600">Certificate/Recommendation Letter</span></p>
+                  <p class="leading-8"><i class="fas fa-map-marker-alt"></i><span class="px-2 text-gray-600">Remote</span></p>
+                  <div class="flex flex-wrap pt-3">
+                    <div class="px-2 bg-gray-200 mr-3 my-1 rounded-md">Front-end Engineer</div>
+                    <div class="px-2 bg-gray-200 mr-3 my-1 rounded-md">Backend Engineer</div>
+                    <div class="px-2 bg-gray-200 mr-3 my-1 rounded-md">UX/UI Designer</div>
+                    <div class="px-2 bg-gray-200 my-1 rounded-md">QA Tester</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+  
+            <div class="shadow-md rounded-md mx-3 my-2 my_card transition ease-out duration-700 transform hover:scale-105">
+              <div class="flex justify-between bg-gray-100 rounded-t-md">
+                <div class="flex">
+                  <img src="./cover.png" alt="image" class="w-24 p-3">
+                  <div class="py-3 flex flex-col justify-between">
+                    <p class="text-xl text-gray-800 font-semibold">Project name</p>
+                    <p class="text-base text-gray-600 font-semibold"><i class="fas fa-check-square text-black"></i><span class="px-3">Company name</span></p>
+                  </div>
+                </div>
+                <div class="flex flex-col justify-between p-3 place-items-end">
+                  <i class="far fa-bookmark"></i>
+                  <p>5 hours ago</p>
+                </div>
+              </div>
+              <div>
+                <div class="p-3">
+                  <p class="leading-8"><i class="fas fa-clock"></i><span class="px-2 text-gray-600">10hr/per week</span></p>
+                  <p class="leading-8"><i class="fas fa-medal"></i><span class="px-2 text-gray-600">Certificate/Recommendation Letter</span></p>
+                  <p class="leading-8"><i class="fas fa-map-marker-alt"></i><span class="px-2 text-gray-600">Remote</span></p>
+                  <div class="flex flex-wrap pt-3">
+                    <div class="px-2 bg-gray-200 mr-3 my-1 rounded-md">Front-end Engineer</div>
+                    <div class="px-2 bg-gray-200 mr-3 my-1 rounded-md">Backend Engineer</div>
+                    <div class="px-2 bg-gray-200 mr-3 my-1 rounded-md">UX/UI Designer</div>
+                    <div class="px-2 bg-gray-200 my-1 rounded-md">QA Tester</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+  
+  
+            <div class="shadow-md rounded-md mx-3 my-2 my_card transition ease-out duration-700 transform hover:scale-105">
+              <div class="flex justify-between bg-gray-100 rounded-t-md">
+                <div class="flex">
+                  <img src="./cover.png" alt="image" class="w-24 p-3">
+                  <div class="py-3 flex flex-col justify-between">
+                    <p class="text-xl text-gray-800 font-semibold">Project name</p>
+                    <p class="text-base text-gray-600 font-semibold"><i class="fas fa-check-square text-black"></i><span class="px-3">Company name</span></p>
+                  </div>
+                </div>
+                <div class="flex flex-col justify-between p-3 place-items-end">
+                  <i class="far fa-bookmark"></i>
+                  <p>5 hours ago</p>
+                </div>
+              </div>
+              <div>
+                <div class="p-3">
+                  <p class="leading-8"><i class="fas fa-clock"></i><span class="px-2 text-gray-600">10hr/per week</span></p>
+                  <p class="leading-8"><i class="fas fa-medal"></i><span class="px-2 text-gray-600">Certificate/Recommendation Letter</span></p>
+                  <p class="leading-8"><i class="fas fa-map-marker-alt"></i><span class="px-2 text-gray-600">Remote</span></p>
+                  <div class="flex flex-wrap pt-3">
+                    <div class="px-2 bg-gray-200 mr-3 my-1 rounded-md">Front-end Engineer</div>
+                    <div class="px-2 bg-gray-200 mr-3 my-1 rounded-md">Backend Engineer</div>
+                    <div class="px-2 bg-gray-200 mr-3 my-1 rounded-md">UX/UI Designer</div>
+                    <div class="px-2 bg-gray-200 my-1 rounded-md">QA Tester</div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
+          
         </div>
+
+        <div class="self-center text-5xl px-3" id="next">
+          <i class="fas fa-chevron-right"></i>
+        </div>
+
+
+
+
+
+
       </div>
     </div>
   </div>
