@@ -30,7 +30,7 @@ cd Mini-Cards
 
 ### Live Version
 
-[Mini Cards](https://abdumurodovazulfizar.github.io/NestOne-Traditional-Restaurant/)
+[Mini Cards](https://mini-cards.netlify.app/)
 
 ## Authors
 
@@ -53,11 +53,4 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 
 - [Microverse](https://www.microverse.org/) for international opportunities.
-- Special thanks to all code reviewers.
-- FrontEndMasters and FreeCodeCamp for their open source
-- You can be software developer only if you want and try for it 😊
-
-## 📝 License
-
-Copyright 2021 Zulfizar Abdumurodova
-- [MIT LICENSE](https://github.com/AbdumurodovaZulfizar/NestOne-Traditional-Restaurant/blob/build_webpage/LICENSE) for this project.
+- [OneSkool](https://oneskool.com/) for their remote job opportunities.
